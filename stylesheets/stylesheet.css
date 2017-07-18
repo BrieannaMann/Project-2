@@ -1,0 +1,149 @@
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	font-size:.8em;
+}
+footer {
+	background-color: #242424;
+}
+a{
+	text-decoration: none;
+	padding-bottom: 1em;
+}
+button {
+	text-decoration: none;
+	background-color: white;
+	border: none;
+	color: #9b9b9b;
+	padding:0;
+}
+button:hover {
+	color: #e2574c;
+}
+.link {
+	color: white;
+	transition: color 1s ease;
+}
+.link:hover {
+	color: #e2574c;
+}
+
+.product-section h4, h3 {
+	padding:1em;
+}
+.product-section {
+	padding:2em 0 5em 0;
+}
+.about h4{
+	padding:2em;
+}
+.about {
+	padding: 3em 0 ;
+}
+.sign-up h2 {
+	padding:1em;
+}
+.sign-up h4{
+	padding-bottom:1em;
+}
+.logo {
+	width:10em;
+	padding: 1em 0 0 1em;
+}
+
+.hero {
+	background: linear-gradient(
+		rgba(0,0,0,0.3),
+		rgba(0,0,0,0.3)),
+	url("../assets/banner-girl.png") top 2em center no-repeat , 
+		url("../assets/flower-bkgd.jpg") center center no-repeat ;	
+    height: 80vh;
+    background-size:cover, contain;
+} 
+.sign-up {
+	background: 
+	linear-gradient(
+		rgba(0,0,0,0.2),
+		rgba(0,0,0,0.2)),
+	url("../assets/wave-bkgd.jpg") bottom center no-repeat;
+	height: 50vh;
+	width:100%;
+	background-size:cover;
+}
+.email-input {
+	background: white;
+	border-radius: 100em;
+	border:.2em solid white;
+	padding-left:2vw;
+}
+.email {
+	border-style:none;
+}
+.subscribe {
+	color: white;
+	background-color: #e2574c;
+	border-style: none;
+	border-radius: 100em;
+	transition: background-color .5s ease-in;
+}
+.subscribe:hover {
+	background-color: black;
+}
+.footer {
+	border-top: .5em solid white;
+	padding:50px;
+}
+.footer p{
+	padding-bottom:1em;
+}
+.social-icons a{
+	padding-right:2em;
+}
+.cart {
+	background-color: white;
+	border: none;
+	transition: color 1s ease;
+	padding:0 .5em .5em 0;
+}
+.cart:hover {
+	color: darkgrey;
+}
+.cart-num {
+	width: 1em;
+	background: #e2574c;
+	border-radius: 50%;
+	justify-content: center;
+	align-self: flex-start;
+
+}
+.cartnum {
+	padding-bottom:1.5em;
+}
+#cart-total-hide {
+	visibility: hidden;
+}
+.total-price {
+	padding:0 2em 1.5em .2em;
+	align-self:flex-end;
+	display:none;
+}
+#price-total-hide {
+	visibility: hidden;
+}
+.center-text {
+	align-items:center;
+	justify-content: center;
+}
+.shop {
+	width:100%;
+}
+
+
+
+
+

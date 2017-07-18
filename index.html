@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="stylesheets/css_reset.css"/>
+<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
+<link type="text/css" rel="stylesheet" href="stylesheets/font.css"/>
+<link type="text/css" rel="stylesheet" href="stylesheets/flex.css"/>
+<link type="text/css" rel="stylesheet" href="stylesheets/responsive.css"/>
+<link type="text/css" rel="stylesheet" href="stylesheets/gallery.css"/>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="stylesheets/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+<title>	Aloha Apparel Co.</title>
+</head> 
+<body>
+	<header> 
+		<!-- Navigation -->
+		<nav class="flex space-between mobile-nav"> 
+			<div class="logo flex-item-1 mobile-nav-logo">
+				<img src="assets/aloha-logo.svg" >
+			</div>
+			<ul class="flex flex-center space-between flex-basis-50 main-font flex-item-2 flex-basis-0">
+				<li><a class="secondary-colour link" href="#about"> ABOUT </a></li>
+				<li><a class="secondary-colour link" href="#shop"> SHOP </a></li>
+				<li><a class="secondary-colour link" href="#featured"> FEATURED </a></li>
+				<li><a class="secondary-colour link" href="#updates"> UPDATES </a></li>
+			</ul>
+			<div class="flex flex-center space-between flex-item-3 cart-nav"> 
+				
+				<button class="flex-right cart">
+					<i class=" fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+				</button>
+				<div class="cartnum" id="cart-total-hide">
+					<div class=" flex cart-num white-font main-font" id="cart-num">0 
+					</div>
+				</div>
+				<div class="flex flex-center total-price grey-font" id="price-total-hide"> &#36;
+					<div  id="total-price">0</div>
+				</div>
+			</div>
+		</nav> 
+		<!-- Hero Banner -->
+		<div class="hero flex vertical-direction flex-center hero-banner ">
+			<h3 class="hero-text white-font dropshadow main-font"> New Collection </h3>
+			<h1 class="white-font dropshadow header-font"> Spring/ Summer 2016 </h1>
+		</div>
+	</header>
+		<!-- ABOUT SECTION-->
+	<section id="about" class="about flex flex-center vertical-direction">
+		<h2 class="header-font"><em> Hand-Crafted </em> <strong> Styles </strong></h2>
+		<h4 class="main-font line-spacing text-justified main-font width-50"> Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below </h4>
+	</section>
+		<!-- SHOP -->
+	<section id="shop" class="shop">
+	<div>
+		<div class="flex gallery-wrap flex-auto ">
+		<div class="flex gallery-img-1 flex-center gallery-height gallery-width-100 border-bottom border-right background-cover mobile-border-bottom" onclick="location.href='#';"> 
+				<h3 class="white-font main-font dropshadow"> MEN'S</h3>
+		</div>
+		<div class="flex col2 gallery-width-100">
+		<div class="flex gallery-img-2 flex-center gallery-height gallery-width-50 border-right mobile-border-right mobile-border-bottom" onclick="location.href='#';">
+				<h3 class="white-font main-font dropshadow"> TRENDS </h3>
+		</div>
+		<div class="flex gallery-img-3 flex-center gallery gallery-height gallery-width-50" onclick="location.href='#';">
+				<h3 class="white-font main-font dropshadow"> GLASSES </h3>
+		</div>
+		</div>
+		</div>
+		<div class="flex gallery-wrap flex-auto">
+		<div class="flex col2 gallery-width-100">
+		<div class="flex gallery-img-4 flex-center gallery-height gallery-width-50 mobile-border-right" onclick="location.href='#';">
+				<h3 class="white-font main-font dropshadow"> SALE </h3>
+		</div>
+		<div class="flex gallery-img-5 flex-center gallery-height gallery-width-50 border-left" onclick="location.href='#';">
+			<h3 class="white-font main-font dropshadow"> BAGS </h3>
+		</div>
+		</div>
+		<div class="flex gallery-img-6 flex-center gallery-height gallery-width-100 border-left mobile-border-top" onclick="location.href='#';">
+			<h3 class="white-font main-font dropshadow"> WOMEN'S </h3>
+		</div>
+		</div>
+		
+	</div>
+	</section> 
+	<!-- Featured Products Section-->
+	<section id="featured" class="product-section flex flex-center vertical-direction">
+		<h2 class="header-font"><em> Most-Loved </em> <strong> Products </strong></h2> 
+		<div class="slide-group">
+		<ul class="bxslider flex ">
+			<li class="flex flex-center vertical-direction ">
+				<img src="assets/stretch-knit-dress.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font"> DRESSES</h4>
+				<h3 class="secondary-colour header-font">Stretch Knit Dress</h3>
+				<h4 class="grey-font main-font"> &#36;169.00
+					<button class="add-to-cart" id="add-to-cart" data-price="169">
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+			<li class="flex flex-center vertical-direction ">
+				<img src="assets/cotton-blue-shirt.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font "> SHIRTS</h4>
+				<h3 class="secondary-colour header-font">Cotton Blue Shirts</h3>
+				<h4 class="grey-font main-font"> &#36;89.00
+					<button class="add-to-cart" id="add-to-cart"  data-price="89"> 
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+			<li class="flex flex-center vertical-direction ">
+				<img src="assets/checked-stretch-dress.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font "> DRESSES</h4>
+				<h3 class="secondary-colour header-font">Checked Stretch Dress</h3>
+				<h4 class="grey-font main-font"> &#36;129.00
+					<button class="add-to-cart" id="add-to-cart" data-price="129"> 
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+			<li class="flex flex-center vertical-direction ">
+				<img src="assets/blue-hipster-backpack.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font "> BAGS</h4>
+				<h3 class="secondary-colour header-font">Blue Hipster Backpack</h3>
+				<h4 class="grey-font main-font"> &#36;69.00
+					<button class="add-to-cart" id="add-to-cart" data-price="69"> 
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+			<li class="flex flex-center vertical-direction ">
+				<img src="assets/demin-overall-shorts.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font "> DEMIN</h4>
+				<h3 class="secondary-colour header-font ">Demin Overall Shorts</h3>
+				<h4 class="grey-font main-font"> &#36;89.00
+					<button class="add-to-cart" id="add-to-cart" data-price="89"> 
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+			<li class="flex flex-center vertical-direction">
+				<img src="assets/pink-dotted-dress.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font "> DRESSES</h4>
+				<h3 class="secondary-colour header-font ">Pink Dotted Dress</h3>
+				<h4 class="grey-font main-font"> &#36;99.00
+					<button class="add-to-cart" id="add-to-cart" data-price="99"> 
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+			<li class="flex flex-center vertical-direction">
+				<img src="assets/cotton-yellow-tshirt.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font "> SHIRTS</h4>
+				<h3 class="secondary-colour header-font ">Cotton Yellow Tshirt</h3>
+				<h4 class="grey-font main-font"> &#36;89.00
+					<button class="add-to-cart" id="add-to-cart" data-price="99"> 
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+			<li class="flex flex-center vertical-direction">
+				<img src="assets/blue-silk-dress.jpg">
+				<div class="text flex flex-center vertical-direction">
+					<h4 class="grey-font main-font "> DRESSES</h4>
+				<h3 class="secondary-colour header-font ">Blue Silk Dress</h3>
+				<h4 class="grey-font main-font"> &#36;99.00
+					<button class="add-to-cart" id="add-to-cart" data-price="99"> 
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</button>
+				</h4>
+				</div>
+			</li>
+
+</ul>
+</section>
+
+	<!-- CONTACT US SECTION -->
+	<section>
+		<div id="updates" class="sign-up flex-center flex vertical-direction"> 
+			<h2 class="header-font white-font dropshadow "> <em>Sign-up for </em><strong> Updates</strong></h2>
+			<h4 class="line-spacing text-justified main-font white-font width-50"> Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</h4>
+		<div class="email-input space-between">
+			<input type="text" class="email" name="email" placeholder="Your Email" />
+			<input type="submit" class="subscribe flex-right" name="subscribe" value="Subscribe" /> 
+		</div>
+		</div>
+	</section>
+	<!-- FOOTER SECTION -->
+	<footer>
+	<div class="flex footer space-between footer-mobile">
+		<div class="flex vertical-direction space-between footer-justified">
+			<p class="white-font"> &copy; 2016 Aloha Apparel Co. <br>
+				Powered by HTML and CSS. <br></p>
+				<a class="link white-font" href="tel:604-604-6040"> 604-604-6040.</a> 
+				<a class="link white-font" href="mailto:info@alohaapparel.com">info@alohaapparel.com</a>
+			<p class="grey-font address">
+			1490 W Broadway <br>
+			Vancouver, BC, Canada </p>
+
+		</div>
+		<div class=" flex social-icons footer-mobile-social social-stack">
+			<a class="link" target="blank" href="#">
+				<i class="fa fa-facebook" aria-hidden="true">
+					<span class="mobile-hide table-up"> Facebook 
+					</span> 
+				</i>
+			</a>
+			<a class="link" target="blank" href="#">
+				<i class="fa fa-twitter" aria-hidden="true">
+					<span class="mobile-hide table-up"> Twitter 
+					</span>
+				</i>
+			</a>
+			<a class="link" target="blank" href="#">	
+				<i class="fa fa-instagram" aria-hidden="true">
+					<span class="mobile-hide table-up"> Instagram 
+					</span>
+				</i>
+			</a>
+			<a class="link" target="blank" href="#">
+				<i class="fa fa-pinterest" aria-hidden="true">
+					<span class="mobile-hide table-up"> Pinterest 
+					</span>
+				</i>
+			</a>
+			<a class="link" target="blank" href="#">
+				<i class="fa fa-google-plus" aria-hidden="true">
+					<span class="mobile-hide table-up"> Google+ 
+					</span>
+				</i>
+			</a>
+		</div>
+	</div>
+	</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.js"></script>
+<script src="stylesheets/jquery-functions.js"></script> 
+<script src="stylesheets/java-script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="stylesheets/jquery.bxslider/jquery.bxslider.js"></script>
+<!-- bxSlider CSS file -->
+<script src="stylesheets/jquery.bxslider/slider.js"></script>
+</html>

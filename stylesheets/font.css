@@ -1,0 +1,46 @@
+.white-font {
+	color:#fff;
+}
+.grey-font {
+	color: #9b9b9b;
+}
+.secondary-colour {
+	color: #e2574c;
+}
+.main-font {
+	font-family: 'raleway', sans-serif;
+}
+.header-font{
+	font-family: 'playfair Display', serif;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style:italic;
+}
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size:2rem;
+}
+h3 {
+	font-size: 1.6rem;
+	font-weight: lighter;
+}
+h4 {
+	font-size:.8rem;
+}
+h5 {
+	font-size:.5rem;
+}
+.dropshadow {
+	text-shadow:1px 1px #000;
+}
+.line-spacing {
+	line-height: 2em;
+}
+.text-justified {
+	text-align: center;
+}
