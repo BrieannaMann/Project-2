@@ -57,8 +57,12 @@ var width =$(window).width();
 	   slideWidth: 314,
 	 });
 	}; 
+	$(window).on('resize',function(){
+    if (width > 0) {  
+      location.reload(); 
+    }
+});
 })
-	
 
 
 
